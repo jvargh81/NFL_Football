@@ -220,7 +220,7 @@ _Below graph is the analysis of the above data_
 Using the data in the database, the analysis helped to understand that Drew brees was consistant through out the years.There is a drastic drop in 2017 because the season is still going on. We also were able to analyze the percentage of completion data, using scatter plots for previous years.
 
 
-#### **References : **
+#### **References :**
 
 ##### **DATA Scraped**  
 http://www.espn.com/nfl/statistics/player/_/stat/passing/sort/passingYards/year/2017/seasontype/2
