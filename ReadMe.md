@@ -34,7 +34,7 @@ ofns = pd.read_csv("nfl_offense_cleaned.csv")
       
 #### *How to plot graphs of the data analyzed?*
 
-_We have to first collect some data from the csv file, so that we can input our data to the graph. _
+_We have to first collect some data from the csv file, so that we can input our data to the graph._
 
 In this example, the graph ploted are line graphs and scatterplot.Both graphs represent two different anaysis of the data set.
 
