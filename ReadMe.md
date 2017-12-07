@@ -3,7 +3,7 @@
 <img src="nfl.jpg">
 
 
-_The NFL football dataset is a scraped data from the espn.com.It contains details of all players whoo played in the NFL game from the year 2007-2017.Data contain different fields about the players contributions._
+_The NFL football dataset is a scraped data from the espn.com.This Data was scraped usig program written python 3.6. It contains details of all players whoo played in the NFL game from the year 2007-2017.Data contain different fields about the players contributions._
 
 
 
@@ -78,13 +78,13 @@ ofns_t = ofns.drop(ofns.columns[[0]], axis=1)
 ofns = ofns.drop(ofns.columns[[0,3,5,8,9,11,12,14]], axis=1)
 ```
 
-#### ARestricting the player postion to quaterbacks
+#### Grouping the player postion to quaterbacks
 
 ```python
 ofns = ofns[ofns["POS"] ==" QB"]
 
 ```
-# Finding the player who playrd all the 11 years.
+#### Finding the player who played all the 11 years.
 _Using value count we can find the players instances and identify the players_
 ```python
 ofns["PLAYER"].value_counts()
@@ -212,18 +212,22 @@ _Below graph is the analysis of the above data_
 <img src="graph7.jpg">
 
 
-### Conclusion :
+#### **Conclusion :**
 
 Using the data in the database, the analysis helped to understand that Drew brees was consistant through out the years.There is a drastic drop in 2017 because the season is still going on. We also were able to analyze the percentage of completion data, using scatter plots for previous years.
 
 
+#### **References : **
+
+##### **DATA Scraped**  
+http://www.espn.com/nfl/statistics/player/_/stat/passing/sort/passingYards/year/2017/seasontype/2
 
 
-**Kaggle Site:**
+#### **Kaggle Site:**
+https://www.kaggle.com/jerrinv/nfl-offense-data-analysis/
 
 
-
-### Author
+#### **Author**
 **Jerrin Joe Varghese**
 
 
