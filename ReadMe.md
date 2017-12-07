@@ -12,12 +12,16 @@ _The NFL football dataset is a scraped data from the espn.com.This Data was scra
 	* Jupyter Notebook
 
 ### Libraries and Packages required
-	_In order to analyze the data set, we have to import the following libraries.(For the current github code)_
+
+	In order to analyze the data set, we have to import the following libraries.(For the current github code)
+	
+```python	
 	* pandas
 	* matplotlib
 	* IPython
 	* seaborn
 	* numpy
+```
 	
 
 #### What are we analysing?

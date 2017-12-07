@@ -130,12 +130,12 @@ $(document).ready(function () {
 </div>
 <div id="libraries-and-packages-required" class="section level3">
 <h3>Libraries and Packages required</h3>
-<pre><code>_In order to analyze the data set, we have to import the following libraries.(For the current github code)_
-* pandas
-* matplotlib
-* IPython
-* seaborn
-* numpy</code></pre>
+<pre><code>In order to analyze the data set, we have to import the following libraries.(For the current github code)</code></pre>
+<pre class="python"><code>    * pandas
+    * matplotlib
+    * IPython
+    * seaborn
+    * numpy</code></pre>
 <div id="what-are-we-analysing" class="section level4">
 <h4>What are we analysing?</h4>
 <p><em>Using this dataset we are trying to analyse the top 6 players who played the NFL from 2007-2017, all the 11 years.Also using this data set we are trying to analyze the data of previous years percentage completion.</em></p>
@@ -144,7 +144,7 @@ $(document).ready(function () {
 </div>
 <div id="how-to-plot-graphs-of-the-data-analyzed" class="section level4">
 <h4><em>How to plot graphs of the data analyzed?</em></h4>
-<p><em>We have to first collect some data from the csv file, so that we can input our data to the graph. </em></p>
+<p><em>We have to first collect some data from the csv file, so that we can input our data to the graph.</em></p>
 <p>In this example, the graph ploted are line graphs and scatterplot.Both graphs represent two different anaysis of the data set.</p>
 <ul>
 <li><p>Analysis of top 6 players who played the NFL from the year 2007-2017.</p></li>
@@ -301,8 +301,8 @@ $(document).ready(function () {
 <pre class="python"><code>ofns_t = ofns.drop(ofns.columns[[0]], axis=1)
 ofns = ofns.drop(ofns.columns[[0,3,5,8,9,11,12,14]], axis=1)</code></pre>
 </div>
-<div id="arestricting-the-player-postion-to-quaterbacks" class="section level4">
-<h4>ARestricting the player postion to quaterbacks</h4>
+<div id="grouping-the-player-postion-to-quaterbacks" class="section level4">
+<h4>Grouping the player postion to quaterbacks</h4>
 <pre class="python"><code>ofns = ofns[ofns[&quot;POS&quot;] ==&quot; QB&quot;]
 </code></pre>
 </div>
